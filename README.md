@@ -5,7 +5,6 @@ This is a simple application that will generate QR Codes for Stripe products, al
 # Usage
 1. Clone the repo
 2. Replace your Stripe Key within the products controller file
-3. Launch the application
-   `ruby bin/rails server`
+3. Launch the application using `ruby bin/rails server`
 4. Go to the `/products/new` route
 
