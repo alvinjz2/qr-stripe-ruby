@@ -1,24 +1,11 @@
-# README
+# QR-Stripe
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple application that will generate QR Codes for Stripe products, allowing sellers to have customers scan a code to reach the checkout page, instead of typing in a link. 
 
-Things you may want to cover:
+# Usage
+1. Clone the repo
+2. Replace your Stripe Key within the products controller file
+3. Launch the application
+   `ruby bin/rails server`
+4. Go to the `/products/new` route
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
