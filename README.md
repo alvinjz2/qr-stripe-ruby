@@ -11,7 +11,7 @@ When the application is run, the user is prompted to enter basic information to 
 3. Launch the application using `ruby bin/rails server`
 4. Go to the `/products/new` route
 
-# List of Planned QoL/Features
+# List of Planned Updates
 - Improved UI
 - Add a login system, can then function as a service instead of standalone local app
 - Option to download/print the QR Codes
