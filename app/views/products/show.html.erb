@@ -1,0 +1,8 @@
+<h1><%=@product.name%>  </h1>
+<p><%=@product.description%></p>
+<%= image_tag ("/assets/" + @product.product_id + ".png"), class: "img-responsive"%>
+
+<ul>
+    <li> Currency: <%=@product.currency%>  </li>
+    <li> Unit Amount: <%= @product.unit_amount%> </li>
+</ul>
