@@ -16,3 +16,5 @@ When the application is run, the user is prompted to enter basic information to 
 - Add a login system, can then function as a service instead of standalone local app
 - Option to download/print the QR Codes
 - Ability to input more info specific to the product creation (so more detailed inputs into the Stripe API)
+- Create QR codes for existing products
+- Ability to print a page of the web-app
