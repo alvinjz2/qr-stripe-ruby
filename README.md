@@ -3,7 +3,7 @@ This is a simple application that will generate QR Codes for Stripe products, al
 
 # How it works
 This application uses the Stripe API to generate payment links. In order to generate a link though, you have to create a product first, then create a price for that product, and then finally create a payment link. See [this](https://stripe.com/docs/payment-links/api) for more info.
-When the application is run, the user is prompted to enter basic information to create a product and price. These include a product name, the currency, as well as the cost amount. The necessary steps from product info to QR Code are handled by the application-- the user doesn't need to worry about this. 
+When the application is run, the user is prompted to enter basic information to create a product and price. These include a product name, the currency, as well as the cost amount. The necessary steps to go from product info to QR Code are handled by the application-- the user doesn't need to worry about this. 
 
 # Usage
 1. Clone the repo
