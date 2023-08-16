@@ -2,18 +2,23 @@
 
 <%= form_with model: @product do |form| %>
   <div>
-    <%= form.label :name %><br>
+    <%= form.label :Name %><br>
     <%= form.text_field :name %>
   </div>
 
   <div>
-    <%= form.label :currency %><br>
+    <%= form.label :Currency %><br>
     <%= form.text_area :currency %>
   </div>
 
   <div>
-    <%= form.label :unit_amount %><br>
+    <%= form.label :Value %><br>
     <%= form.text_area :unit_amount %>
+  </div>
+
+  <div>
+    <%= form.label :Description %><br>
+    <%= form.text_area :description %>
   </div>
 
   <div>
