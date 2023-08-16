@@ -26,7 +26,7 @@ class ProductsController < ApplicationController
     currency = params[:product][:currency]
     unit_amount = params[:product][:unit_amount]
     name = params[:product][:name]
-
+    description = params[:product][:description]
     # Create price
     price = Stripe::Price.create({
       unit_amount: unit_amount,
@@ -49,7 +49,7 @@ class ProductsController < ApplicationController
     dict = {"product_id": product_id, 
             'price_id': price_id, 
             'name': name, 
-            'description': 'placeholder',
+            'description': description,
             'currency': currency, 
             'unit_amount': unit_amount,
             'payment_link': payment_link_url
